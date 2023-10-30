@@ -1,0 +1,23 @@
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/brushstrokes.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.1 -cuda Y
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/brushstrokes.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.5 -cuda Y
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/brushstrokes.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.9 -cuda Y
+
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/chagall_marc_1.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.1 -cuda Y
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/chagall_marc_1.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.5 -cuda Y
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/chagall_marc_1.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.9 -cuda Y
+
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/Andy_Warhol_97.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.1 -cuda Y
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/Andy_Warhol_97.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.5 -cuda Y
+python test.py -content_image images/content/000000000081.jpg -style_image images/style/Andy_Warhol_97.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.9 -cuda Y
+
+python test.py -content_image images/content/Lena.png -style_image images/style/brushstrokes.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.1 -cuda Y
+python test.py -content_image images/content/Lena.png -style_image images/style/brushstrokes.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.5 -cuda Y
+python test.py -content_image images/content/Lena.png -style_image images/style/brushstrokes.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.9 -cuda Y
+
+python test.py -content_image images/content/Lena.png -style_image images/style/chagall_marc_1.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.1 -cuda Y
+python test.py -content_image images/content/Lena.png -style_image images/style/chagall_marc_1.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.5 -cuda Y
+python test.py -content_image images/content/Lena.png -style_image images/style/chagall_marc_1.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.9 -cuda Y
+
+python test.py -content_image images/content/Lena.png -style_image images/style/Andy_Warhol_97.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.1 -cuda Y
+python test.py -content_image images/content/Lena.png -style_image images/style/Andy_Warhol_97.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.5 -cuda Y
+python test.py -content_image images/content/Lena.png -style_image images/style/Andy_Warhol_97.jpg -decoder decoder.pth -encoder encoder.pth -alpha 0.9 -cuda Y

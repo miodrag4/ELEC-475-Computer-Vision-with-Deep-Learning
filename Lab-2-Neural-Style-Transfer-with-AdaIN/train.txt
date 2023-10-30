@@ -1,0 +1,13 @@
+# This was the main python terminal command used to run the program, the dataset directory was changed with respect
+# to the dataset being used, 1k or 10k.
+python train.py 
+-content_dir "C:\Users\miles\OneDrive - Queen's University\Eng Year 4 - 2024\CMPE 475\Lab-2\src\Data\COCO\COCO1k" 
+-style_dir "C:\Users\miles\OneDrive - Queen's University\Eng Year 4 - 2024\CMPE 475\Lab-2\src\Data\wikiart\wikiart1k" 
+-gamma 1 
+-e 25 
+-b 5 
+-l encoder.pth 
+-s decoder.pth 
+-p output_plot.png 
+-cuda Y
+>>
