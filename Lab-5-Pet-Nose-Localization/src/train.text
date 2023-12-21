@@ -1,0 +1,1 @@
+python train.py --image_dir "/images" --train_labels "images/train_noses.txt" --val_labels "images/test_noses.txt" --epochs 40 --batch_size 16 --learning_rate 0.001 
