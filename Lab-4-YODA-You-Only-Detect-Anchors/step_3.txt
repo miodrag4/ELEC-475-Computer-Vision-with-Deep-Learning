@@ -1,0 +1,7 @@
+python step_3.py 
+--train_data_path "C:\Users\miles\OneDrive - Queen's University\Eng Year 4 - 2024\CMPE 475\Lab-4-YODA-You-Only-Detect-Anchors\data\Kitti8_ROIs\train" 
+--test_data_path "C:\Users\miles\OneDrive - Queen's University\Eng Year 4 - 2024\CMPE 475\Lab-4-YODA-You-Only-Detect-Anchors\data\Kitti8_ROIs\test" 
+--num_epochs 40 
+--batch_size 32 
+--learning_rate 0.0001 
+--model_save_path "2nd.pth"

@@ -1,0 +1,2 @@
+python KittiToYodaROIs.py -i ..\data\Kitti8 -o .\data\Kitti8_ROIs\train -m train
+python KittiToYodaROIs.py -i ..\data\Kitti8 -o .\data\Kitti8_ROIs\train -m test
